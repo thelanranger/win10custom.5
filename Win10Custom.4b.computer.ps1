@@ -3,6 +3,7 @@
 #### Written by TheLANRanger
 #### 
 #### Goal is to script as many basic default changes to Windows 10 desktop as possible to save clicks!
+#### Should be partnered with Win10Custom.4b.User.ps1
 #### Contains RenVSS.bat for single click ease. This maybe eliminated later on. 
 
 #### ========================
