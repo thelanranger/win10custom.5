@@ -184,7 +184,7 @@ function Install-ChromeuBlock
 function Self-Elevate
 {
     #### ========================
-    #### Code credit of Ben Armstrong’s Virtualization Blog
+    #### Code credit of Ben ArmstrongÂ’s Virtualization Blog
     #### https://blogs.msdn.microsoft.com/virtual_pc_guy/
     #### ========================
     # Get the ID and security principal of the current user account
@@ -247,6 +247,6 @@ Win10-Custom-CU
 ##Remove-ChromeuBlock
 Install-ChromeuBlock
 
-Write-Host -NoNewLine "Press any key to continue..."
-$null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
+#### Write-Host -NoNewLine "Press any key to continue..."
+#### $null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
 #### ========================
