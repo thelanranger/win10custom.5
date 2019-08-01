@@ -3,7 +3,7 @@
 #### Written by TheLANRanger
 #### 
 #### Goal is to script as many basic default changes to Windows 10 desktop as possible to save clicks!
-#### Contains RenVSS.bat for single click ease. This maybe eliminated later on. 
+#### Should be partnered with Win10Custom.4b.Computer.ps1
 
 
 #### ========================
@@ -32,8 +32,7 @@ reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeli
 #### Hide People button from Taskbar: 0 = Off, 1 = On
 reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v People /t REG_DWORD /d 00000000 /f
 
-#### Set Background Color to Black
-#### *NOTE: It is questionable that this works...
+#### Set Background Color to Black  *NOTE: It is questionable that this works...
 reg add "HKCU\Control Panel\Colors" /v Background /t REG_SZ /d "0 0 0" /f
 
 #### Set Time Zone to EST
@@ -48,11 +47,12 @@ POWERCFG -H OFF
 
 #### ========================
 #### Restart Explorer and Destop Window Manager to make everything take effect now.
+#### !Disabled currently!
 #### ------------------------
-taskkill /f /im explorer.exe
-start explorer.exe
-taskkill /f /im dwm.exe
-start dwm.exe
+#### taskkill /f /im explorer.exe
+#### start explorer.exe
+#### taskkill /f /im dwm.exe
+#### start dwm.exe
 #### ========================
 
 
