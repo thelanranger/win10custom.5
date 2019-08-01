@@ -2,9 +2,7 @@
 Modifies and Customizes a Win10 Default install. The purpose of this is to save a bunch of clicks 
 in customizing a base system install of Windows 10. 
 
-
-* Attempts Self Elevate 
-* Check if the script was started with Administrator privileges. 
+* Attempts Self Elevate *improved in .5b see code for comments
 * Create a System restore point before we break a bunch of stuff. 
 * Enable Registry Backup (Disabled post 10 1803) 
 * Enable Volume Shadow Copy for local Disks and create schedule tasks 
@@ -31,4 +29,8 @@ in customizing a base system install of Windows 10.
 * Set Background Color to Black  *NOTE: It is questionable that this works... 
 * Set Time Zone to EST 
 * Set power settings to 'High Performance' 
-* Restart Explorer and Destop Window Manager to make everything take effect now
+
+* Remove uBlock Origin for Chrome *optional
+* Install uBlock Origin for Chrome
+
+* Restart Explorer and Destop Window Manager to make everything take effect now *Optional
